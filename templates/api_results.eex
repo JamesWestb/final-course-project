@@ -1,0 +1,11 @@
+<h2>Snapshots</h2>
+<ul>
+ <%= for snapshot <- snapshots do %>
+    <li><%= snapshot %></li>
+    <% end %>
+</ul>
+
+<h2>Wildthing Coordinates</h2>
+<p><%= inspect coordinates %>
+
+
